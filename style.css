@@ -1,0 +1,365 @@
+
+.nav-bar a{
+    text-decoration: none;
+    color:rgb(20, 134, 240);
+    font-size: 1.2rem;
+  
+    /* align-content: right: 30px;;; */
+    justify-content: space-between;
+    padding: 1px 6px;
+   
+
+
+}
+.nav-bar button{
+    background-color:rgb(20, 134, 240);
+   
+    border: none;
+    border-radius: 23px;
+    padding: 3px 2px;
+
+}
+.nav-bar button a{
+    color: white;
+}
+.nav-bar{
+    /* background-color: lightskyblue; */
+   
+    align-items: end;
+    justify-items: end;
+    text-align: end;
+    justify-content: space-evenly;
+
+    
+    
+}
+
+
+
+/* -------------------------------------------------------------------------------- */
+
+
+/* Hero-section */
+.hero-section {
+    background-image: url(hero-img.jpg);
+    background-color: lightskyblue;
+
+    background-size: cover;
+    height: 780px;
+    background-size: cover;
+    /* display: flex;
+    justify-content: center;
+    align-items: flex-end; */
+   
+
+}
+.hero-section img{
+   text-align: end;
+}
+.hero-info{
+
+   padding-left: 6rem;
+   /* padding-bottom: 25rem; */
+   padding-top: 17rem;
+   
+}
+.hero-btn button{
+    width: 13rem;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    height: 2rem;
+    margin-top: 2rem;
+
+}
+.hero-main{
+font-size: 4rem;
+font-weight: 800;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.hero-main span{
+font-size: 3rem;
+font-weight: 800;
+color:rgb(20, 134, 240) ;
+}
+.hero-des{
+    font-size: 1.5rem;
+    color: grey;
+    font-weight: 500;
+}
+/* -------------------------------------------------------------------------------- */
+
+/* card */
+.card{
+    /* display: flex;
+    width: 33.33%; */
+    display: flex;
+}
+.box{
+    display: flex;
+    width: 40.33%;
+    margin-top: 20px;
+    /* border: 2px solid black; */
+    /* justify-content: center;
+    align-items: center; */
+
+}
+.info1{
+    font-size: 2rem;
+    padding: 0 2px 0 2px;
+    font-weight: 500;
+}
+.box-info{
+  height: 15rem;
+}
+.box-info i{
+    font-size: 2rem;
+    margin: 2rem 7rem;
+    background-color: lightskyblue;
+    
+    
+}
+.info2{
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 0px 0px 0 78px;
+}
+.box-info span{
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: grey;
+    /* padding: 1px 2px 0px 2px; */
+}
+.box2{
+    background-color: rgb(255, 255, 255);
+    box-shadow:  5px 5px 8px #888888;
+ 
+}
+.btn{
+    margin-top: 2rem;
+    margin-left: .95rem;
+}
+.btn i{
+    padding: 2px 23px;
+}
+.btn1{
+    background-color: whitesmoke;
+}
+.btn2{
+    background-color: rgb(20, 134, 240);
+}
+.features{
+    margin-top: 5rem;
+}
+.features h4{
+    color:rgb(20, 134, 240) ;
+    text-align: center;
+}
+
+
+/* -------------------------------------------------------------------------------- */
+
+/* second part */
+.second-section{
+    /* display: flex; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+   margin-top: 3rem;
+    
+}
+.second-section img{
+    width:40%;
+    height: 20%;
+}
+
+
+.second-info span{
+    font-size: 3rem;
+    font-weight: 600;
+    
+}
+.second-info p{
+    color: grey;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+/* radio option */
+.radiobtn span{
+    font-size: 1rem;
+    border: 1px solid black;
+    padding: 2px 12px;
+    border-radius: 15px ;
+}
+.radiobtn i{
+    color:rgb(20, 134, 240) ;
+    padding-right: 4px;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+/* chat button */
+.chatbtn button{
+   
+    background-color: rgb(20, 134, 240);
+    border: none;
+    border-radius: 17px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 1.85rem;
+    padding: 9px 20px;
+}
+
+/* ------------------------------------------------------------------------------------ */
+
+
+/* third- part */
+.thrid-part{
+    margin-top: 95px;
+}
+.th{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 45px;
+}
+.thrid-part h3{
+    font-size: 2rem;
+    justify-content: center;
+    text-align: center;
+}
+.thrid-info p{
+    font-size: 0.75rem;
+    justify-content: center;
+    text-align: center;
+    color: grey;
+}
+
+.third-photo{
+ display: flex;
+}
+.third-photo img{
+    width:33.33%
+}
+
+
+/* --------------------------------------------------------------------------- */
+.testominal{
+    margin-top: 5rem;
+}
+.testominal h4{
+    color:rgb(20, 134, 240) ;
+ text-transform: uppercase;
+ text-align: center;
+}
+.testominal h2{
+    text-align: center;
+}
+.test-box{
+    display: flex;
+}
+.test-info{
+    display: flex;
+}
+
+.cards{
+    /* display: flex;
+    width: 33.33%; */
+    display: flex;
+}
+.boxs{
+    display: flex;
+
+    margin-top: 40px;
+    /* border: 2px solid black; */
+    /* justify-content: center;
+    /* align-items: center; */
+    /* box-shadow: .2px .2px 3px black; */ 
+    margin-left: 5px;
+    padding-left: 20px;
+    padding-top: 10px;
+    box-shadow:  5px 5px 8px #888888;
+    border-radius: 15px;
+
+
+}
+.boxs-info i{
+ display: flex;
+    justify-content: center;
+}
+.boxs-info h5{
+    /* display: flex; */
+    justify-content: center;
+}
+
+
+
+/* --------------------------------------------------------------- */
+.last-part{
+    background-image: url("blue.jpg");
+    width: 100%;
+    height: 200px;
+    margin-top: 4rem;
+    background-size:cover ;
+}
+.last-part{
+    display: flex;
+
+}
+.last-info h2{
+  
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    justify-content: center;
+align-items: center;
+margin-left: 8rem;
+margin-top: 2rem;
+}
+.bookbtn button{
+    /* margin: 2rem; */
+    color:rgb(20, 134, 240) ;
+    background-color: white;
+    font-size: 1.4rem;
+    border-radius: 25px;
+    padding: 2px 8px;
+    margin-left: 30rem;
+    /* text-align: center;
+    justify-content: center; */
+    border: none;
+
+}
+
+/* ----------------------------------------------------- */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul a{
+    display: block;
+    color: rgb(32, 32, 32);
+    font-size: 0.85rem;
+    text-decoration: none;
+    margin-top: 10px;
+}
+ul{
+    margin-top: 30px;
+}
+ .contact{
+    margin-right: 18rem;
+}
+ul i{
+    color: rgb(20, 134, 240);
+}
+.send{
+    background-color:rgb(20, 134, 240);
+    color: white;
+    padding: 3px 3px;
+}
